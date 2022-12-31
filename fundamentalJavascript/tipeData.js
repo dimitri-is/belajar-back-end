@@ -118,3 +118,28 @@ console.log(banyakSalam);
 const namaAdek = "Liu";
 console.log(`Halo, nama saya ${namaAdek}`);
 // hasil output Halo, nama saya Liu
+
+
+// boolean yang mempunyai nilai true or false yang menjadi kunci utama dalam penentuan logika
+// kita akan menjadi kunci utama dalam menentukan logika dalam if/else statement
+// kita harus menetapkan boolean menggunakan keyword true atau false
+let d = true;
+let f = false;
+console.log(typeof (d));
+console.log(typeof (f));
+// hasil 
+// boolean
+// boolean
+// bisa juga menggunakan operator komparasi lebih dari (>), atau kurang dari (<)
+const v = 18;
+const c = 23;
+
+let isGreater = v > c;
+let isLess = v < c;
+
+console.log(isGreater);
+console.log(isLess);
+// output hasilnya
+// false
+// true
+

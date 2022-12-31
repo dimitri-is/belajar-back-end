@@ -113,4 +113,8 @@ console.log(ambigu);
 let salam = "Hallo!";
 let banyakSalam = salam + salam;
 console.log(banyakSalam);
-// akan muncul hasil Hallo!Hallo!
+// akan muncul hasil dari string concatenation yang harus menambahkan spasi sendiri yaitu Hallo!Hallo!
+// berikut contoh string interpolation, dengan cara menambahkan variabel ke dalam string template menggunakan backstick (`) bawah Esc
+const namaAdek = "Liu";
+console.log(`Halo, nama saya ${namaAdek}`);
+// hasil output Halo, nama saya Liu

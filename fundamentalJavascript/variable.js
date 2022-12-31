@@ -25,3 +25,16 @@ let nameLengkap = "Dimitri" + "Irfan";
 
 console.log(nameLengkap);
 // hasil penerapan expression 2, menjadi DimitriIrfan, dan kasusnya seperti pada contoh expression pertama
+
+// membuat variabel konstanta, yang tidak bisa kita lakukan perulangan
+const z = 200;
+
+console.log(z);
+// hasilnya akan keluar angka 200
+
+// membuat contoh kode perulangan variabel konstanta, yang pasti akan muncul error
+const b = 1290;
+console.log(b);
+b = 1290;
+console.log(b);
+// hasilnya akan muncul error code saat menjalankan baris perintah kedua.

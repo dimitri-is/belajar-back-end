@@ -84,3 +84,33 @@ console.log(7n % 8n);
 // 0n
 // 7n
 
+// string yang merupakan sebuah teks
+// gunakan tanda petik satu atau petik dua diantara teks untuk menetapkan nilai sebagai string.
+let greet = "Hello";
+
+console.log(typeof (greet));
+// akan keluar hasil string, karena kita kasihkan nilai fungsi typeof
+// dan tidak akan ada bedanya jika kita menggunakan tanda petik satu atau tanda petik dua.
+// berikut tanda petik satu
+const question = '"Apakah kamu tahu tentang JavaScript?" Saya bertanya';
+
+console.log(question);
+// akan keluar hasil berikut
+// "Apakah kamu tahu tentang JavaScript?" Saya bertanya
+// tapi, bagaimana jika 1 dialog nilai memiliki 2 tanda petik juga?
+// const answer = '"Saya pikir 'ini' memang begitu" Dia menjawab';
+
+// console.log(answer);
+// akan terjadi error hasil
+// cara agar tidak menghasilkan error, bisa menggunakan backslash \ untuk mengurangi ambigu tanda petik
+const ambigu = '"Saya pikir, \'ini\' memang begitu" Dia menjawab';
+console.log(ambigu);
+// hasil keluarnya akan keluar seperti berikut
+// "Saya pikir, 'ini' memang begitu" Dia menjawab
+// 
+// kita juga dapat menggunakan operator plus (+) yang berfungsi menggabungkan dua teks yang berpisah menjadi satu buah teks
+// contoh
+let salam = "Hallo!";
+let banyakSalam = salam + salam;
+console.log(banyakSalam);
+// akan muncul hasil Hallo!Hallo!

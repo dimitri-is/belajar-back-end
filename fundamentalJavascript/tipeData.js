@@ -40,3 +40,15 @@ console.log(n ** m);
 // 0 hasil dari sisa hasil bagi
 // 3375 hasil perpangkatan
 
+// terdapat juga operator increment(++), dan decrement(--) di aitmatika.
+// berfungsi menambahkan atau mengurangi nilai 1 pada nilai variabel yang ada.
+let aitmatika = 10;
+console.log(--aitmatika);
+console.log(--aitmatika);
+console.log(++aitmatika);
+console.log(aitmatika++);
+// maka akan memberikan hasil increment, dan decrement seperti berikut=
+// 9
+// 8
+// 9
+// 9

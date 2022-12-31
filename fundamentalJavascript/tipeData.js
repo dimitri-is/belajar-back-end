@@ -143,3 +143,27 @@ console.log(isLess);
 // false
 // true
 
+// null yang merupakan serupa seperti hasil undefined
+// perbedaannya yaitu bisa digunakan sebagai nilai sementara pada variabel, tapi sebenarnya nilainya tidak ada
+// daripada kita membuat variabel yang tidak mempunyai nilai apa-apa yang akang teridentifikasi sebagai undefined, lebih baik kita memberikan tipe data null untuk sebagai bekal kita beri nilai variabel tersebut
+let dataLainYangLama = null;
+console.log(dataLainYangLama);
+// hasil output
+// null
+
+
+// symbol merupakan tipe data baru pada ES6, yang digunakan untuk menunjukkan identifier yang unik
+// kita bisa memberikan deskripsi atau nama symbol ketika membuat symbol sebagai identifier yang unik.
+const id = Symbol("id");
+
+console.log(id);
+// hasil output
+// Symbol(id)
+// nah bagaimana jika dua variabel, menggunakan deskripsi yang sama maka kedua nilainya dianggap beda
+const id1 = Symbol("id");
+const id2 = Symbol("id");
+
+console.log(id1 == id2);
+// hasil output 
+// false
+// symbol umumnya digunakan sebagai nama property dari object yang merupakan tipe data kompleks untuk menyimpan berbagai struktur data yang akan lebih terpakai di object tentang data struktur

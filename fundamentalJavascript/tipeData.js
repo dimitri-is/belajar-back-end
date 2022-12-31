@@ -52,3 +52,35 @@ console.log(aitmatika++);
 // 8
 // 9
 // 9
+
+
+// tipe data bigInt
+// terpakai jika menginginkan cakupan nilai yang lebih besar dari yang bisa dipakai biasanya.
+// untuk projek kriptografi, menentukan waktu hingga presisi microsecond
+const bigNumber = 23872489746223238n;
+const myInt = 1215673517625n;
+
+console.log(bigNumber);
+console.log(myInt);
+// akan tertuliskan hasil=
+// 23872489746223238n
+// 1215673517625n
+// bigInt tetap bisa digunakan untuk nilai yang lebih kecil
+const bigIntTapiKecil = 10n;
+
+console.log(bigIntTapiKecil);
+// hasil =
+// 10n
+// penerapan bigInt pada sistem Aritmatika
+console.log(7n + 8n);
+console.log(7n - 8n);
+console.log(7n * 8n);
+console.log(7n / 8n);
+console.log(7n % 8n);
+// hasil akan seperti terlihat pada tipe data di operasi aritmatika biasanya
+// 15n
+// -1n
+// 56n
+// 0n
+// 7n
+

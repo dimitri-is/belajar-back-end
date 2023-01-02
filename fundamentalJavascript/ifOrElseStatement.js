@@ -10,7 +10,7 @@ if (sedangHujan) {
 }
 console.log("Berangkat kegiatan.");
 /*output    >
-Persiapan sebelum berangkat kegiatanfk.
+Persiapan sebelum berangkat kegiatan.
 // jika nilai tertulis true, maka akan nampak juga "Hari ini hujan, bawa payung.", Kenapa begitu, karena kode di dalam blok kode if dilewatkan
 Berangkat kegiatan.
  */

@@ -1,0 +1,8 @@
+sebelumnya sempat mempelajari variabel dan tipe data
+tipe data yang terbahasa sebelumnya bertipe data primitif yang hanya bisa menyimpan satu nilai
+kita akan membahas tipe data yang dapat menyimpan struktur data yang lebih kompleks
+beberapa struktur yang akan dipelajari  =
+    object
+    array
+    map
+    set

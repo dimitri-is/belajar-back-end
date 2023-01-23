@@ -1,0 +1,8 @@
+merupakan tipe data yang dapat mengelompokkan lebih dari satu nilai dan menempatkannya dalam satu variabel.
+perbedaannya dengan object adalah data array disusun secara berurutan dan diakses menggunakan index. kita menggunakan kurung siku untuk mengakses nilai array  yang berisi angka yang merupakan posisi nilai yang ingin diakses.
+Untuk menambahkan data ke array, kita dapat menggunakan metode push(), yang berfungsi akan menambahkan data di akhir array
+Untuk mengeluarkan data atau elemen terakhir dari array, bisa menggunakan metode pop()
+metode shift() digunakan mengeluarkan elemen pertama dari array
+metode unshift() digunakan menambahkan elemen di awal array
+kita dapat menghapus data dalam array menggunakan keyword delete, tapi hanya menghapus data pada index yang ditentukan, dan membiarkan posisi tersebut kosong. Agar pasti, kita harus menggunakan metode splice().
+

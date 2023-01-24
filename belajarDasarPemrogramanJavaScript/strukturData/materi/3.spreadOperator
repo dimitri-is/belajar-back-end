@@ -1,0 +1,5 @@
+merupakan fitur yang membantu pengelolaan array menjadi lebih mudah. Digunakan menyebarkan nilai array atau iteriable object ke beberapa elemen. Dituliskan dengan tiga titik (...)
+dengannya, kita dapat menyebarkan nilai-nilai dalam array, seperti meleburkan nilai-nilai menjadi beberapa elemen sesuai panjang nilai arraynya.
+dapat digunakan menggabungkan dua buah array ke dalam array baru.
+
+dia juga bisa digunakan untuk object literals yang memungkinkan dapat menggabungkan beberapa object dengan kode yang lebih ringan.

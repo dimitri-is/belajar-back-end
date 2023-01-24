@@ -1,0 +1,6 @@
+dua hal yang paling banyak digunakan dalam mengelola data di JS adalah Iterasi Object, dan Array.
+JSON (JavaScript Object Notation) merupakan formaty data paling populer yang digunakan dalam transaksi data saat ini.
+ES6 mempunyai fitur destructuringobject and array.
+Destructuring dalam JS merupakan sintaksis yang dapat mengeluarkan nilai dari array atau properties dari sebuah Object ke dalam setuan yang lebih kecil.
+Alasan menambahkan fitur ini untuk memudahkan destructuring object maupun array.
+kita akan dipermudah mendapatkan data yang diinginkan ketika ingin memecahkan struktur data menjadi bagian-bagian yang lebih kecil.

@@ -1,0 +1,17 @@
+penulisannya menggunakan object literal({}) di sisi kiri dari operator assignment
+dalam destructuring object, kita dapat menentukan salah satu nilai yang ingin di destrukturisasikan, sehingga tidak perlu membuat variabel sebanyak properti yang dimiliki objeknya
+
+
+destructuring assignment
+pada kasus tertentu, kita perlu melakukan pada variabel yang sudah dideklarasikan, sehingga tidak pada contoh sebelumnya yang kita lakukan pada deklarasi variabel.
+saat melakukan destructuring assignment, perlu menuliskan destructuring object di dalam tanda kurang. Jika tidak, tanda kurung kurawal akan membuat JavaScript mengira membuat block statement, sementara block statement tidak bisa berada pada sisi kiri assignment.
+fungsi tanda kurung akan memberitahukan JavaScript bahwa tanda kurawal di dalamnya bukan sebuah block statement melainkan sebuah expression, sehingga assignment dapat dilakukan.
+
+default values
+variabel akan menjadi undefined, ketika kita mendestruksikan objek dan menetapkan variabel dengan nama yang bukan merupakan properti dari objek.
+untuk alternativenya, bisa kita mendefinisikan secara opsional nilai default pada properti tertentu jika ditemukan. bisa kita tambahkan tanda assignment (=) setelah nama variabel dan tentukan nilai default-nya.
+
+assigning ti dufferent local variable names
+kita perlu menyeragamkan penamaan variable lokal dengan properti object-nya, jika kita tahu pada cara sebelumnya untuk melakukan destrukturisasi objek pada variabel lokal.
+lebih simpelnya, kita bisa menggunakan penamaan variabel lokal yang berbeda dalam proses destrukturisasi.
+pada ES6, menyediakan sintaksis tambahan yang membuat kita dapat melakukan hal tersebut.

@@ -1,0 +1,3 @@
+adalah tipedata untuk menyimpan koleksi data dengan format key-value layaknya object.
+bedanya adalah map memperbolehkan key dengan tipe data manapun, dibandingkan object hanya mengizinkan key dengan tipe string atau symbol.
+kita dapat membuat objek ketika mendapatkan nilainya berdasar key tertentu dengan metode get(), dan untuk menambahkan key-valuenya baru menggunakan metode set()

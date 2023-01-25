@@ -1,0 +1,13 @@
+Destructuring Array bekerja berdasarkan posisi daripada penamaan propertinya, yang membuat berbeda dengan destructuring object.
+di dalam array terdapat nilai string yang dimasukkan ke local variable, nilai dari array yang dimasukkan dari lokal dipilih berdasar posisi dimana dideklarasikan pada array.
+kita bebas menentukan nama dari variabel lokal, yang penting adalah urutan deklarasi variabel.
+kita dapat memilih nilai pada index tertentu untuk destrukturisasi pada array.
+
+destructuring assignment
+bisa juga melakukannya pada array, yang beda adalah tidak perlu membungkusnya dengan tanda kurung.
+sangat berguna ketika hendak menukar nilai antara dua variabel.
+sebelum ES6, kita melakukan pertukran nilai membutuhkan variabel penengah yang merupakan untuk menyimpan data sementara yang akan ditukar, yang membuat kurang efektif
+Maka dengan array destructuring assignment, kita bisa menukar nilai variabel dengan mudah tanpa membuat variabel tambahan 
+
+default values
+untuk memberikan nilai default pada varieble yang tidak dapat dijangkau oleh array, sehingga nilai pada veriabel tidak menjadi undefined.

@@ -1,0 +1,4 @@
+kumpulan nilai / set values
+dia tidak berurutan, dan tidak diindeks, data di dalamnya juga bersifat unik dan tidak ada duplikasi
+untuk menambahkan data kedalamnya, kita dapat memanfaatkan fungsi add() yang hanya menerima satu argumen, dan jika memasukkan array maka dianggap sebagai satu elemen sendiri / nilai yang diduplikat akan terabaikan
+tidak memiliki urutan atau indeks, nilai yang masuk ke fungsi delete adalah nilai yang dihapus bukan indeksnya

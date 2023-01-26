@@ -1,0 +1,11 @@
+weak map varian yang mendukung garbage collection yang merupakan proses dimana interpreter mengambil kembali memori yang tidak lagi dapat dijangkau, dang tidak dapat digunakan oleh program, yang dilakukan secara otomatia dan bukan menjadi urusan dari developer.
+weak dari map adalah referensi terhadap nilai yang disimpan. Jika satu nilai yang disimpan sudah tidak terjangkau, maka referensi ke memorinya akan dihapus.
+beberapa hal yang membedakan antara Map dan WeakMap
+-Key WeakMap harus berupa object atau array. Nilai primitif tidak bisa digunakan sebagai key, karena tidak mendukung garbage collection
+-WeakMap memiliki method get(), set(), has(), dan delete(). namun, tidak termasuk kategori iterable sehingga tidak memiliki method keys(), values(), atau forEach()
+-tidak memiliki property size, karena ukuran WeakMap dapat berubah karena proses garbage collection
+
+seperti WeakMap, WeakSet adalah versi weak reference dari set, yang berbeda adalah antara WeakSet dari Set antara lain:
+-WeakSet tidak bisa menyimpan nilai primitif
+-weakSet bukan iterable dan hanya memiliki method add(), has(), dan delete()
+-WeakSet tidak memiliki properti size

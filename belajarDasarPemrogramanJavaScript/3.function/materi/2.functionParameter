@@ -1,0 +1,14 @@
+suatu blok kode yang dapat menerima input dan menghasilkan output tertentu merupakan definisi fungsi. Input ke dalam sebiah fungsi dikirimkan melalui parameter.
+
+akan banyak bertemu istilah parameter dan argument, sering tertukar penggunaan istilah ini.
+
+perbedaan dari parameter yaitu variabel didefinisikan sebagai Inputan dari sebuah fungsi, sedangkan argument merupakan nilai atau expression yang dimaksud ke dalam fungsi.
+parameter fungsi dapat berupa tipe data apapun, mulai dari string, number, object, bahkan fungsi lain.
+jika parameter dari fungsi adalah sebuah object, kita juga bisa memanfaatkan destructuring object untuk mendapatkan nilainya.
+
+default parameters
+fungsi pada JavaScript tidak melakukan pengecheckan terhadap jumlah manapun tipe argumennya dimasukkan ke dalam parameter. kita bisa memasukkan argumen meskipun tidak sesuai dengan parameteryang telah didefinisikan.
+
+rest parameter
+hampir sama seperti operator spread, yang membedakannya hanya menyebarkan array menjadi beberapa elemen berbeda.
+rest parameter dituliskan menggunakan three consecutive dots(...), dan kita dapat menggabungkan beberapa elemen menjadi satu array, yang sangan bermanfaat untuk membuat fungsi dengan parameter yang tidak pasti.

@@ -1,0 +1,22 @@
+bagian penting dalam bahasa pemrograman apapun, yang sebenarnya sudah kita pelajari sebelumnya sepeti log(), pada perintah jalankan kode
+function dapat bekerja karena mirip seperti fungsi pada matematika, yang di dalamnya digunakan menghasilkan output berdasarkan input tertentu
+bisa juga digunakan sebagai blok kode atau prosedur yang dapat digunakan berulang, yang merupakan sebuah variabel yang berisik blok logika akan dieksekusi ketika variabelnya dipanggil
+fungsi memiliki struktur sama, yang dideklarasikan dengan keyword function dan nama fungsinya selalu diikuti tanda kurung (parentheses) tanpa spasi, setelah itu sepasang kurung kurawal berisikan logika dari fungsi tersebut.
+
+biasanya dalam tanda kurung membutuhkan sebuah informasi tambahan yang disebut dengan parameter yang merupakan data digunakan untuk diproses di dalamnya. seperti fungsi console.log() dapat menerima argument berupa string atau data lain untuk ditampilkan ke konsol
+
+
+
+parameter dan argument
+yang mempunyai perbedaan diantara keduanya
+parameter merupakan variabel yang terdefinisi sebagai inputan dan sebuah fungsi
+argument merupakan nilai atau expression yang dimasukkan ke dalam fungsi 
+
+jika fungsi hanya menjalankan baris kode yang sama, dirasa kurang fungsiona. Dan kita dapat membuat fungsi tersebut menerima dan memanfaatkan parameter untuk mengubah perilaku dari fungsinya
+
+untuk menambahkan variabel dan fungsi, tambahkan variabel di dalam tanda kurung fungsi.
+fungsi dapat menghasilkan output yang mengembalikan sebuah nilai, yang dengannya kita dapat membuat function untuk melakukan perhitungan matematika dan hasilnya dapat memasukkan ke dalam sebuah variabel.
+kita dapat menggunakan keyword return untuk mengembalikan sebuah nilai
+
+expression function
+adalah cara lain untuk membuat sebuah fungsi pada JavaScript adalah Expression Function, yang merupakan kode atau instruksi yang mengembalikan nilai sehingga expression function bisa disimpan dalam sebuah variabel. Expression fungsi umumnya kita perlu menuliskan nama fungsinya, tang tidak bernama juga dikenal dengan anonymous function.

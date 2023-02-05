@@ -1,0 +1,5 @@
+arrow function merupakan funsgi baru mirip seperti regular function yang secara perilaku hanya saja berbeda penulisan. mendefinisikan penggunaan tanda panah atau fat arrow ( => ) yang merupakan penulisan arrow lebih singkat 
+terdapat perbedaa sintaks, dan perilaku antara arrow dan regular function
+regular function dapat berupa function declaration dan function expression.
+arrow function hanya berupa expression function saja, yang menyebabkan arrow memiliki nama lengkap "arrow function expression"
+

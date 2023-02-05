@@ -1,0 +1,7 @@
+kita telah mengenal function, setelah memisahkan kode ke dalam blok atau fungsi terpisah, satu hal penting yaitu variable scoping yang akan ada banyak keadaan dimana membutuhkan variable untuk diakses di seluruh script yang dibuat. Ada juga keadaan dimana kita ingin variable tersebut hanya dapat diakses pada cakupan fungsi dan fungsi turunannya saja.
+
+variabel yang dapat diakses dari seluruh scirpt dengan "globally scoped", sementara variable yang hanya pada fungsi tertentu disebut dengan "Localy scoped"
+
+variabel javascript menggunakan fungsi untuk mengelola cakupan. Jika variabel didefinisikan di luar fungsi, maka variabel tersebut bersifat global. jika didefinisikan dalam fungsi, maka variabel bersifat lokal dan cakupannya hanya pada fungsi tersebut beserta turunannya.
+
+jika lupa menuliskan keyword let, const, atau var pada scirpt ketika membuat sebuah variabel, maka variabel akan menjadi global. kita harus menghindari pembuatan variabel global, karena dapat diakses pada seluruh script yang kita tuliskan. semakin banyak variabel global yang dituliskan, semakin tinggi tabrakan (collision) terjadi.

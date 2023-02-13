@@ -1,0 +1,10 @@
+OOP merupakan paradigma pemrograman yang banyak diterapkan ketika membangung aplikasi. kental dengan konsep objek yang mengandung dua hal, yaitu atrubut dan method. selain itu, kental juga dengan konsep object blue print yang akrab dikenal dengan sebutan class.
+
+kita akan membahas hal terkait OOP:
+-pengertian paradigma OOP
+-Constructor function dan sintaks class di javascript
+-properti dan method di dalam class 
+-pewarisan
+-Constructor dan method overriding
+-object composition
+-built-in class

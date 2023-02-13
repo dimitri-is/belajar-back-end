@@ -1,0 +1,15 @@
+RANGKUMAN MATERI
+Untuk membuat kode yang bersih dan mudah dipahami, salah satu cara yang bisa dilakukan adalah dengan menggunakan function.
+Hal yang bisa kita bahas pada modul ini, antara lain:
+1 function atau fungsi adalah kumpulan blok atau kode yang memungkinkan untuk dipanggil berkali-kali
+2 penamaan fungsi harus mendeskripsikan fungsi yang jelas. penamaan yang bagus akan langsung memberi kita pemahaman tentang apa yang dilakukan atau dikembalikan
+3 function dapat menerima masukan nilai melalui parameter
+4 fungsi dapat mengembalikan nilai. jika tidak, maka hasilnya adalah undefined
+5 karena fungsi berupa nilai, fungsi dapat ditetapkan atau dideklarasikan di setiap tempat kode, termasuk variabel atau parameter dari fungsi lain
+
+MATERI PENDUKUNG
+beberapa link website pembelajaran tentang materi pendukung
+* function https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function
+* function express https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
+* arrow function express https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Operators/function
+*closures https://developer.mozilla.org/en-US/docs/Web/JavaScript/Closures

@@ -1,0 +1,8 @@
+kita telah mengetahui fungsi yang dapat didefinisikan dalam lingkup global atau di dalam fungsi lain yang dapat mengakses variabel di dalam lexical scope-nya disebut dengan closure, yang berarti pada sebuah fungsi bersarang berada di dalam memiliki akses ke variabel di lingkup induknya.
+
+di awal cukup sulit untuk memahami closure, jadi bisa kita bisa lihat langsung untuk apa digunakan pada program yang nyata.
+
+pada javascript, terdapat cara mendeklarasikan fungsi atau variabel menjadi private seperti bahasa java, sehingga bisa diakses dari manapun. 
+kita membutuhkan private method untuk membatasi akses ke fungsi atau variabel.
+
+closure memungkinkan membuat fungsi seperti menjadi private 
